@@ -1,0 +1,64 @@
+/* styles.css */
+.board {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  float: left;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 36px;
+  border: 5px solid #fdbb2d;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.square.x {
+  color: blue; 
+  font-weight: bold;
+}
+
+/* Style for O */
+.square.o {
+  color: red; 
+}
+
+.button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fdbb2d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #fdbb2d;
+}
+
+
+.center {
+  text-align: center;
+  margin-bottom: 70px;
+  color: #fdbb2d;
+}
